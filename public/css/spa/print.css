@@ -1,0 +1,49 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #print_wrpr *,#print_section * {
+        visibility: visible;
+        border:0px;
+        /*background: #fff;*/
+    }
+
+    #print_wrpr,#print_section {
+         position: absolute;
+         left: 0;
+         top: 0;
+         overflow: visible !important;
+    }
+
+    #print_wrpr.no-print * {
+        visibility: hidden;
+    }
+
+    #print_wrpr.row {
+        width:100% !important;
+    }
+
+    #print_wrpr .row ,#print_wrpr .list_hdr{
+         width:100% !important;
+    }
+
+    .creport-list_wrpr #print_wrpr .collapsible-body {
+        display:block !important;
+    }
+
+    .reportlist-wrpr #print_wrpr .collapsible-body {
+        display:block;
+    }
+
+    img,svg {
+        page-break-inside: avoid;
+    }
+
+    .collapsible li , .collapsible li .data,.guze-cntnr ,.date_Wise_container,.center_dtls.c2.dtls {
+        page-break-inside: avoid;
+    }
+
+    .guze-cntnr {
+
+    }
+}
