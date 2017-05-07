@@ -19,4 +19,5 @@ Use wild card where ever necessary.
 
 run in the project root:
 
+npm install
 node generatemin
