@@ -6,7 +6,7 @@ Can Be Integrates into any web application easily.
 Just copy the project files into any web Application.
 Configure assets.js run below command
 
-Let me know in case of nay issue:
+Let me know in case of any issue:
 
 For Minification of JS and CSS
 
